@@ -1,0 +1,26 @@
+.animatedSection {
+  opacity: 0;
+  will-change: opacity, transform;
+  transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.fadeUp {
+  transform: translateY(35px);
+}
+
+.fadeLeft {
+  transform: translateX(-35px);
+}
+
+.fadeRight {
+  transform: translateX(35px);
+}
+
+.fadeIn {
+  transform: scale(0.94);
+}
+
+.visible {
+  opacity: 1;
+  transform: translateY(0) translateX(0) scale(1);
+}
