@@ -1,0 +1,319 @@
+.pastEventPage {
+  padding-top: 70px;
+}
+
+.pastEventHero {
+  padding: 5rem 0 3.5rem;
+  text-align: center;
+  background: rgba(22, 18, 38, 0.4);
+}
+
+.introSection {
+  padding: 4rem 0;
+}
+
+.introText {
+  font-size: 1.25rem;
+  color: #cbd5e1;
+  line-height: 1.75;
+  text-align: center;
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+.glanceSection {
+  padding: 5rem 0;
+}
+
+.scheduleGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2.25rem;
+  margin-bottom: 2.5rem;
+}
+
+.scheduleCard {
+  background: rgba(22, 18, 38, 0.65);
+  padding: 2.25rem;
+  border-radius: 20px;
+  border: 1px solid rgba(168, 85, 247, 0.25);
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+  backdrop-filter: blur(10px);
+}
+
+.scheduleCard:hover {
+  transform: translateY(-6px);
+  border-color: rgba(168, 85, 247, 0.6);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4), 0 0 25px rgba(168, 85, 247, 0.2);
+}
+
+.scheduleDay {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.dayIcon {
+  color: #c084fc;
+  width: 24px;
+  height: 24px;
+}
+
+.scheduleDay h3 {
+  font-family: var(--font-heading, 'Outfit', sans-serif);
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #f8fafc;
+}
+
+.scheduleEvents {
+  list-style: none;
+}
+
+.scheduleEvents li {
+  padding: 0.75rem 0;
+  color: #cbd5e1;
+  border-bottom: 1px dashed rgba(168, 85, 247, 0.18);
+  position: relative;
+  padding-left: 1.25rem;
+}
+
+.scheduleEvents li:before {
+  content: '•';
+  color: #a855f7;
+  position: absolute;
+  left: 0;
+  font-weight: bold;
+}
+
+.scheduleEvents li:last-child {
+  border-bottom: none;
+}
+
+.weekLongEvent {
+  background: rgba(10, 9, 20, 0.8);
+  padding: 2rem;
+  border-radius: 20px;
+  border: 1px solid rgba(168, 85, 247, 0.3);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.eventIcon {
+  color: #c084fc;
+  width: 26px;
+  height: 26px;
+}
+
+.highlights2024Section {
+  padding: 5rem 0;
+  background: rgba(22, 18, 38, 0.4);
+}
+
+.highlights2024Grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+}
+
+.highlight2024Card {
+  background: rgba(10, 9, 20, 0.75);
+  padding: 2.25rem;
+  border-radius: 20px;
+  border: 1px solid rgba(168, 85, 247, 0.25);
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+  display: flex;
+  gap: 1.5rem;
+}
+
+.highlight2024Card:hover {
+  transform: translateY(-6px);
+  border-color: rgba(168, 85, 247, 0.6);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4), 0 0 25px rgba(168, 85, 247, 0.2);
+}
+
+.highlight2024Icon {
+  color: #a855f7;
+  flex-shrink: 0;
+  margin-top: 0.25rem;
+}
+
+.highlight2024Content h3 {
+  font-family: var(--font-heading, 'Outfit', sans-serif);
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+  color: #f8fafc;
+}
+
+.highlight2024Content p {
+  color: #cbd5e1;
+  line-height: 1.65;
+  font-size: 0.98rem;
+}
+
+.speakers2024Section {
+  padding: 5rem 0;
+}
+
+.speakersIntro {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.speakersIntro p {
+  font-size: 1.15rem;
+  color: #cbd5e1;
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+.speakers2024List {
+  max-width: 850px;
+  margin: 0 auto 2.5rem;
+}
+
+.speaker2024Item {
+  background: rgba(22, 18, 38, 0.65);
+  padding: 1.5rem 1.75rem;
+  border-radius: 16px;
+  margin-bottom: 1rem;
+  border: 1px solid rgba(168, 85, 247, 0.25);
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.speaker2024Item:hover {
+  border-color: rgba(168, 85, 247, 0.6);
+  transform: translateX(8px);
+  background: rgba(32, 25, 54, 0.85);
+}
+
+.speakerNumber {
+  background: linear-gradient(135deg, #c084fc, #7c3aed);
+  color: #ffffff;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-family: var(--font-heading, 'Outfit', sans-serif);
+  flex-shrink: 0;
+  box-shadow: 0 4px 12px rgba(168, 85, 247, 0.4);
+}
+
+.speaker2024Item p {
+  color: #f8fafc;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.speakersNote {
+  text-align: center;
+}
+
+.speakersNote p {
+  font-size: 1.1rem;
+  color: #a78bfa;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.65;
+}
+
+.lookingAheadSection {
+  padding: 5rem 0;
+  background: rgba(22, 18, 38, 0.4);
+}
+
+.lookingAheadContent {
+  text-align: center;
+}
+
+.lookingAheadContent > p {
+  font-size: 1.2rem;
+  color: #cbd5e1;
+  margin-bottom: 2.5rem;
+}
+
+.features2025Grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 2rem;
+  margin: 2.5rem 0;
+}
+
+.feature2025 {
+  background: rgba(10, 9, 20, 0.75);
+  padding: 2.25rem 1.75rem;
+  border-radius: 20px;
+  border: 1px solid rgba(168, 85, 247, 0.25);
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.feature2025:hover {
+  transform: translateY(-6px);
+  border-color: rgba(168, 85, 247, 0.6);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4), 0 0 25px rgba(168, 85, 247, 0.2);
+}
+
+.featureIcon {
+  font-size: 2.25rem;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.feature2025 h4 {
+  font-family: var(--font-heading, 'Outfit', sans-serif);
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: #f8fafc;
+}
+
+.feature2025 p {
+  color: #a78bfa;
+  font-size: 0.95rem;
+}
+
+.closingMessage {
+  margin-top: 2.5rem;
+  background: rgba(10, 9, 20, 0.8);
+  padding: 2.5rem;
+  border-radius: 20px;
+  border: 1px solid rgba(168, 85, 247, 0.3);
+  max-width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.closingMessage p {
+  font-size: 1.2rem;
+  color: #cbd5e1;
+  line-height: 1.75;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .scheduleGrid,
+  .highlights2024Grid {
+    grid-template-columns: 1fr;
+  }
+
+  .features2025Grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+
+  .highlight2024Card {
+    flex-direction: column;
+    text-align: center;
+  }
+}
